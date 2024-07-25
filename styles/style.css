@@ -84,13 +84,20 @@ justify-content: center;
     color: white;
 }
 .resume{
-    background-color: #ffffff;
     width: 60%;
     margin: 50px auto;
-    padding: 50px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     line-height: 2;
 }
+.summary,
+.experience,
+.skills,
+.resume-education{
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 50px;
+    margin: 50px auto;
+}
+
 .resume h2{
     margin: 10px 0;
 }

@@ -48,7 +48,12 @@
     .resume h2{
         text-align: center;
     }
-    
+    .summary,
+    .experience,
+    .skills,
+    .resume-education{
+    padding: 20px;
+}
     .job-title{
         display: block;
     }
@@ -81,10 +86,13 @@
     #csa{
         display: none;
     }
+    .resume{
+        margin-top: 0px;
+    }
     .resume hr{
         margin: 30px 0px;
     }
     .resume h2{
-        margin: 30px 0px;
+        margin: 10px 0;
     }
 }
