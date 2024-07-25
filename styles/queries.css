@@ -1,3 +1,8 @@
+@media (max-width:1800px){
+    .resume{
+        width: 80%;
+    }
+}
 @media (max-width: 1200px){
     .hero-text h1{
         line-height: 1.5;
@@ -80,11 +85,6 @@
     }
     footer h2 {
         font-size: 20px;
-    }
-    .skills-row{
-        flex-direction: column;
-        justify-content: center;
-        gap: 4px;
     }
     #csa{
         display: none;
