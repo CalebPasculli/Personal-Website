@@ -11,6 +11,9 @@
     .resume{
         width: 80%;
     }
+    .resume-row{
+        display: block;
+    }
 }
 
 @media (max-width: 850px){

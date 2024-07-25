@@ -96,6 +96,7 @@ justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 50px;
     margin: 50px auto;
+    flex: 1;
 }
 
 .resume h2{
@@ -110,6 +111,12 @@ justify-content: center;
 }
 .resume li{
     margin-left: 16px;
+}
+.resume-row{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 50px;
 }
 .job-title{
     display: flex;
