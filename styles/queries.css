@@ -13,12 +13,21 @@
         margin: 0;
         width: 60%;
     }
+
     .resume{
         width: 80%;
     }
+
     .resume-row{
         display: block;
     }
+    .summary,
+    .experience,
+    .skills,
+    .resume-education{
+        margin: 50px auto;
+    }
+    
 }
 
 @media (max-width: 850px){
